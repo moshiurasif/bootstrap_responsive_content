@@ -1,0 +1,75 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 320px) {
+	.background{
+		background: linear-gradient(to right,#FFA500,#FFFF00);
+		min-height: 300px;
+		clip-path: polygon(0% 0%,100% 0%,100% 100%,0% 100%);
+	}
+	.background h1{
+	font-size: 35px;
+	top: 25%;
+	}
+}
+@media (min-width: 375px) and (max-width: 424.98px) {
+	.background{
+		background: linear-gradient(to right,#FF00FF,#800080);
+		min-height: 300px;
+		clip-path: polygon(0% 0%,100% 0%,100% 90%,0% 100%);
+	}
+	.background h1{
+	font-size: 35px;
+	color: #fff;
+	top: 25%;
+	}
+}
+/* Extra small devices (portrait phones, less than 576px) */
+@media (min-width: 425px) and (max-width: 575.98px) {
+	.background{
+		background: linear-gradient(to right,#00FF00,#00FA9A);
+		min-height: 300px;
+		clip-path: polygon(0% 0%,100% 0%,100% 90%,0% 100%);
+	}
+	.background h1{
+	font-size: 35px;
+	color: #fff;
+	top: 25%;
+	}
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.background{
+		background: linear-gradient(to left,#C71585,#FF1493);
+		min-height: 400px;
+		clip-path: polygon(0% 0%,100% 0%,100% 85%,0% 100%);
+	}
+	.background h1{
+	font-size: 40px;
+	color: #fff;
+	}
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.background{
+		background: linear-gradient(to right,#0000CD,#00008B);
+		min-height: 420px;
+		clip-path: polygon(0% 0%,100% 0%,100% 80%,0% 100%);
+	}
+	.background h1{
+	font-size: 40px;
+	color: #fff;
+	}
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	.background{
+		background: linear-gradient(to right,#DC143C,#8B0000);
+		min-height: 500px;
+	}
+	.background h1{
+	   color: #fff;
+	}
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+	
+}

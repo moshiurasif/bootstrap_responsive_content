@@ -1,0 +1,14 @@
+.background{
+	background: linear-gradient(to bottom,#0EB5FB,#505DFD);
+	min-height: 560px;
+	clip-path: polygon(0% 0%,100% 0%,100% 100%,0% 70%);
+	position: relative;
+}
+.background h1{
+	font-size: 55px;
+	text-align: center;
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%);
+}
